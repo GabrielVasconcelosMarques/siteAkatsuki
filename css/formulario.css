@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Estilização do formulário */
+
+.pai {
+    background: url('../imagens/fundovermelho1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container {
+    font-family: "Poppins", sans-serif;
+    background: white;
+    background-repeat: no-repeat;
+    width: 400px;
+    margin: 10px auto 20px auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+    
+
+/* Estilização da linha abaixo do título */
+
+h2.titulo-form{
+    text-align: center;
+    color: black;
+    padding: 20px;
+    position: relative;
+}
+
+h2.titulo-form::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 65px;
+    bottom: 20px;
+    left: 38px;
+    border-radius: 8px;
+    background: red;
+}
+
+
+/* Estilização dos inputs */
+
+.input-field {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.input-field .underline::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.input-field .underline::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(45deg, #A52A2A, #4F4F4F);
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+
+.input-field input:focus ~ .underline::after {
+    transform: scaleX(1);
+
+}
+
+
+.input-field input {
+    outline: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    width: 300px;
+}
+
+.input-field input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Estilizando o botão */
+
+form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background: linear-gradient(to left, #A52A2A, #4F4F4F);
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    width: 80%;
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #A52A2A, #4F4F4F);
+
+}
+
+
+
+
+
+
+
+
+
+
+

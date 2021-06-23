@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+body{
+    background: url("../imagens/akatsukifundo.png");
+    background-size: cover;
+}
+
+/* Criação da televisão no fundo do bg */
+div#videos {
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url("../imagens/televisao.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 700px 500px;
+    background-position: center;
+    
+}
+
+/* Posicionando videos e título */
+
+iframe#video1 {
+    display: block;
+    position: relative;
+    left: 13%;
+}
+
+h1#titulo {
+    text-align: center;
+    font-family: arial,sans-serif;
+    background-color: #A52A2A;
+    color: white;
+}
+
+/*
+img#pain {
+    position: absolute;
+    top: 230px;
+    right: 150px;
+    width: 300px;
+}
+
+img#konan {
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    width: 370px;
+}
+
+img#kakuzu {
+    position: absolute;
+    top: 770px;
+    right: -20px;
+    width: 680px;
+   
+}
+
+img#hidan {
+    position: absolute;
+    top: 840px;
+    left: 0px;
+}
+
+img#deidara {
+    position: absolute;
+    top: 1400px;
+    left: -80px;
+    width: 570px;
+}
+
+img#sasori {
+    position: absolute;
+    top: 1450px;
+    right: -100px;
+    width: 580px;
+}
+
+*/ 
+
