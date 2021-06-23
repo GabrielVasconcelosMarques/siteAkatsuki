@@ -1,4 +1,4 @@
-# siteAkatsuki
+# Site sobre a Akatsuki
 ## Site feito para mostrar conhecimentos do FrontEnd com o tema da organização Akatsuki do anime Naruto, onde o site consta com a página inicial, história, personagens, cenas e página para contato.
 
 ## Como utilizar?
